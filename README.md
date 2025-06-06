@@ -1,4 +1,4 @@
-# Hello World Golang HTTP Server
+# Hello World
 
 This project sets up a simple HTTP server using Go that responds to two endpoints: `/` and `/hello`.
 
@@ -12,12 +12,12 @@ Ensure you have [Docker](https://www.docker.com/) installed on your machine.
 
 1. **Build the Docker image**:
    ```sh
-   docker build -t hello-world-golang-server .
+   docker build -t hello-world-golang .
    ```
 
 2. **Run the container**:
    ```sh
-   docker run -p 8080:8080 hello-world-golang-server
+   docker run -p 8080:8080 git remote add origin https://github.com/0xsuid/hello-world-golang.git
    ```
 
 3. The server will start on port `8080`.
